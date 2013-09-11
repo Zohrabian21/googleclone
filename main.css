@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ul {
+	list-style-type:none;
+	margin-left: 20px;
+	padding-top: 5px;
+}
+#navtext {
+	display: inline;
+	margin-right: 15px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+#navlink {
+	text-decoration: none;
+	color: #999999;
+}
+.nav {
+	background-color: #222222;
+	height: 30px;
+}
+img {
+	width: 275px;
+	height: 95px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 150px;
+}
+.searchBar {
+	width: 560px;
+	height: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.button1 {
+	border: 1px solid #cccbcb;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #333333;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #f0f3f5;
+	display: inline;
+	width: 80px;
+	height: 10px;
+	padding: 8px 8px 11px 8px;
+	float: left;
+}
+.button2 {
+	border: 1px solid #cccbcb;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #333333;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #f0f3f5;
+	display: inline;
+	width: 100px;
+	height: 10px;
+	padding: 8px 5px 11px 10px;
+	float: right;
+}
+.buttonsection {
+	width: 250px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+div ul div ul {
+	list-style-type:none;
+	padding-top: 5px;
+	margin-bottom: 20px;
+}
+.footer {
+	border-top: 1px solid #e2e2e2;
+	clear: both;
+	margin-top: 50px;
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	text-align: right;
+}
+#footertext {
+	list-style-type:none;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-weight: normal;
+	font-size: 13px;
+	display: inline;
+	margin-right: 15px;
+	font-family: Arial;
+}
+#footerlink {
+	text-decoration: none;
+	color: #666666;
+}
